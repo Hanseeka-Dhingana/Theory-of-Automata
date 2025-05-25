@@ -46,7 +46,7 @@ Deterministic refers to the uniqueness of the computation. In the DFA, the machi
 > **Example :**  L1 = Set of all strings that start with '0'.  
    L1 = {0, 00, 01, 000, 010, 011, ....}  
 
-   ![Diterministic Finite Automata](assets\diterministic_finite_automata.png)   
+   ![Diterministic Finite Automata](assets/diterministic_finite_automata.png)   
 
   **Transition Table**    
   | State/symbol | 0 | 1 |  
@@ -62,13 +62,13 @@ Deterministic refers to the uniqueness of the computation. In the DFA, the machi
 ### Initial State: 
 It is the state that the machine naturally starts in before it reads any input. it is called as `Entry Point.`  
 **Represented by**  
-             ![alt text](assets\initial_state.png)  
+             ![alt text](assets/initial_state.png)  
 
 
 ### Final State:   
 It is the state where the machine halts when it has no input left. it is also called `Accepting State`.  
 **Represented by**  
-![alt text](assets\final_state.png)   
+![alt text](assets/final_state.png)   
 
 ### Dead State / Dead End State  
 It is also called as `Rejecting State` and  `Trap State.` Once the machine enters a dead state, there is no way for it to reach an accepting state.  
@@ -83,29 +83,29 @@ Even number of a's and Even number of b's.
 
 RE = [aa + bb + (ab+ba)(aa+bb)* (ab+ba)]*  
 
-![alt text](assets\even-even.png)
+![alt text](assets/even-even.png)
 
 #### 2) Draw the FA that accept exactly a 
 RE = a    
 
-![alt text](assets\example2.png)
+![alt text](assets/example2.png)
 
 #### 3) Draw FA that accepts all words starting with a  
 
 RE = a(a+b)*     
 
-![alt text](assets\example3.png)
+![alt text](assets/example3.png)
 
 #### 4) Draw FA that accepts exactly a or b 
  RE = a+b      
 
- ![alt text](assets\example4.png)  
+ ![alt text](assets/example4.png)  
 
 #### 5) Draw FA for th language that have b as a second letter over  = {a,b}  
 
 RE = (a+b)b(a+b)*   
 
-![alt text](assets\example5.png)   
+![alt text](assets/example5.png)   
 
 <br>  
 
@@ -120,7 +120,7 @@ NFA similar to DFA but add other features:
           Q = {q0, q1}  
           F = { q1}   
 
-![Non-deterministic Finite Automata](assets\Non-deterministic_finite_automata.png)
+![Non-deterministic Finite Automata](assets/Non-deterministic_finite_automata.png)
 
 **Transition Table**   
 |State /Symbol | a | b | 
@@ -138,13 +138,13 @@ NFA similar to DFA but add other features:
 #### 1) The language ends with 00 and Σ = {0, 1}  
 RE = (1+0)*00    
 
- ![alt text](assets\NFA_example1.png)   
+ ![alt text](assets/NFA_example1.png)   
 
 
 #### 2) Accept all words that contains substring aa over Σ = {a, b}  
 RE = (a+b)* aa(a+b)*    
 
-![alt text](assets\NFA_example2.png)   
+![alt text](assets/NFA_example2.png)   
 
 
 
